@@ -34,7 +34,7 @@ For each record in the dataset it is provided:
 
 #### 5. Code description
 
-  - [Exploratory analysis notebook]('./code/000.ExploratoryAnalysis.ipynb'):
+  - [Exploratory analysis notebook](code/000.ExploratoryAnalysis.ipynb):
 
      - Correlation matrix
      - Variance check
@@ -42,7 +42,7 @@ For each record in the dataset it is provided:
      - Detailed statistics for each variable
 
 
-  - [Classification model notebook]('./code/001.RandomForest.ipynb'):
+  - [Classification model notebook](code/001.RandomForest.ipynb):
 
     - We start with our raw dataset (*samsungData.Rda*)
     - Split this dataset into train & test (70/30)
@@ -52,7 +52,7 @@ For each record in the dataset it is provided:
     - During each iteration, we use [oob score](http://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html) to gauge generalizability of our model
 
 
-  - [PCA notebook]('./code/002.PCA.ipynb')
+  - [PCA notebook](code/002.PCA.ipynb)
 
    - An attempt at looking all 561 variables using principle components
 
