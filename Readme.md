@@ -30,7 +30,11 @@ For each record in the dataset it is provided:
 
   - We used variable importance from random forest model creation phase as an indicator of whether we should keep a particular variable in our model or remove it.
 
+##### Variable Importance -top 5
+
 ![Variable Importance -top 5](plots/06.VarImp-FinalModel.png)
+
+
   - More about feature importance in random forest using scikit-learn [here](http://scikit-learn.org/stable/modules/ensemble.html#feature-importance-evaluation)
 
 #### 5. Code description
@@ -51,12 +55,16 @@ For each record in the dataset it is provided:
     - Select variables using variable importance scores
     - Iterate over this process till final model
     - During each iteration, we use [oob score](http://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html) to gauge generalizability of our model
+    
+##### Correlation Matrix
+
 ![Correlation Matrix](plots/10.correlationPlot.png)
 
   - [PCA notebook](code/002.PCA.ipynb)
 
    - An attempt at looking all 561 variables using principle components
-#### Confusion matrix for the final model
+   
+##### Confusion matrix for the final model
 
 ![Confusion matrix for the final model](plots/08.a.ConfusionMatrix-Test_RF.png)
 
